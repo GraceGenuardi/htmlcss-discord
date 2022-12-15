@@ -40,9 +40,6 @@ h5 {
     color: white;
 }
 
-body {
-    padding: 20px;
-}
 
 button {
     cursor: pointer;
@@ -198,7 +195,7 @@ nav {
     background-color: white;
     display: flex;
     justify-content: center;
-    height: 1200px;
+    height: 1300px;
     padding: 50px;
 }
 
@@ -236,7 +233,7 @@ nav {
     color: white;
     font-size: 20px; 
     margin-left: 450px;
-    margin-top: 40px;
+    margin-top: 90px;
 
 
 }
