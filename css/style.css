@@ -148,9 +148,7 @@ nav {
     background-color:white;
     display: flex;
     justify-content: center;
-    height: 550px;
-
-    
+    height: 550px;    
 }
 
 .box-2 {
@@ -170,7 +168,7 @@ nav {
 
 /*inizio terza sezione: due elementi affiancati*/
 .section-3{
-    background-color:rgba(241, 241, 241, 0.753);
+    background-color:rgba(224, 221, 221, 0.753);
     display: flex;
     justify-content: center;
     height: 550px;
@@ -319,4 +317,14 @@ nav {
     font-size: 15px; 
 
 
+}
+
+/*CSS per esercizio bonus, inserimento della wave*/
+
+.wave {
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/wave.svg");
+    background-size: cover;
+    opacity: 0.10;
 }
