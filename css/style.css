@@ -28,7 +28,15 @@ p {
     font-family: sans-serif;
 }
 
+h4 {
+   font-size: 18px;
+   color: #7289da;
+}
 
+h5 {
+    font-size: 18px;
+    color: white;
+}
 
 body {
     padding: 20px;
@@ -237,34 +245,38 @@ nav {
     background-color: rgb(32, 31, 31);
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 500px;
 }
 
 .first {
-    background-color: rgb(209, 103, 117);
     align-items: center;
     width: 400px ;
-    height: 800px;
+    height: 100px;
     margin-top: 50px;
-    border: 3px dashed black;
+    color: #7289da;
 }
 
-/*.box-8 {
-    background-color: rgb(52, 151, 151);
-    align-items: center;
-    width: 250px ;
-    height: 800px;
-    margin-top: 50px;
-    border: 3px dashed white;
-}*/
+.first img {
+    width: 30px;
+    height: 20px;
+
+}
+
+.ita {
+    color: white;
+}
+
+
 
 .section-5 [class^='box'] {
-	background-color: rgb(52, 151, 151);
-    align-items: center;
     width: 250px ;
-    height: 800px;
+    height: 600px;
     margin-top: 50px;
-    border: 3px dashed white;
+    /*flex-direction: column; non worka*/
+}
+
+.section-5 span {
+    padding: 10px;
 }
 
 
@@ -276,12 +288,11 @@ nav {
     display: flex;
     justify-content: center;
     padding: 20px;
-    border-top: 1px  solid white;
+    border-top: 1px  solid #7289da;
 }
 .row_footer{
     width: 1420px;
     height: 100px;
-    background-color: rgba(148, 245, 212, 0.959);
     margin-top: 10px;
     display: flex;
     /*flex-wrap: wrap; è superfluo*/
