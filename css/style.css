@@ -17,11 +17,15 @@ h1 {
    font-family:: sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+    font-family:: sans-serif;
+ }
+
 p {
     font-size: 20px;
-    padding: 30px;
+    padding: 20px;
     font-family: sans-serif;
-    padding: 10px;
 }
 
 
@@ -158,46 +162,75 @@ nav {
 
 /*inizio terza sezione: due elementi affiancati*/
 .section-3{
-    background-color:rgb(182, 178, 178);
+    background-color:rgba(241, 241, 241, 0.753);
     display: flex;
     justify-content: center;
     height: 550px;
 }
 
 .box-4 {
-    background-color: rgb(240, 170, 179);
     align-items: center;
     width: 400px ;
     height: 450px;
     margin-top: 50px;
-    border: 3px dashed black;
 }
 
 .box-5 {
-    background-color: rgb(43, 116, 252);
     align-items: center;
     width: 700px ;
     height: 450px;
     margin-top: 50px;
-    border: 3px dashed black;
 }
 
 /*inizio quarta sezione: elemento centrale*/
 .section-4{
-    background-color:rgb(119, 110, 110);
+    background-color: white;
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 1200px;
+    padding: 50px;
 }
 
 .box-6 {
-    background-color: rgb(35, 99, 40);
     align-items: center;
     width: 1110px ;
     height: 800px;
     margin-top: 50px;
-    border: 3px dashed black;
+    padding: 30px;
 }
+
+.box-6 img {
+    margin-top: -40px;
+}
+
+
+.star {
+    background-image: url("../img/stars.svg");
+    width: 500px;
+    height: 50px;
+    background-size: contain;
+    margin-left: 300px;
+    text-align: center;
+    
+}
+
+.button_purple{
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #7289da;
+    background-color: #7289da;
+    color: white;
+    font-size: 20px; 
+    margin-left: 450px;
+    margin-top: 40px;
+
+
+}
+
+
 
 /*inizio footer*/
 .section-5{
