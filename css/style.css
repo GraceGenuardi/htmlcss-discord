@@ -9,17 +9,19 @@ img {
     height: 100%;
     width: 100%;
 
+
 }
 
 h1 {
    font-size: 55px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:: sans-serif;
 }
 
 p {
     font-size: 20px;
     padding: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    padding: 10px;
 }
 
 
@@ -82,6 +84,7 @@ nav {
     display:contents;
     display: flex;
     justify-content: center;
+    background-size: cover;
     
 }
 
@@ -140,21 +143,17 @@ nav {
 }
 
 .box-2 {
-    background-color: rgb(43, 116, 252);
     align-items: center;
     width: 700px ;
     height: 450px;
     margin-top: 50px;
-    border: 3px dashed black;
 }
-
-.box-3 {
-    background-color: rgb(240, 170, 179);
+.box-3 {;
     align-items: center;
     width: 400px ;
     height: 450px;
     margin-top: 50px;
-    border: 3px dashed black;
+
 }
 
 /*inizio terza sezione: due elementi affiancati*/
