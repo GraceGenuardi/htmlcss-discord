@@ -12,13 +12,18 @@ img {
 body {
     padding: 20px;
 }
-/*main {
- padding: 30px;
-*/
+
+button {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 
 /*inizio menù*/
 header {
-    background-color:rgba(143, 230, 236, 0.699);
+    background-color:#255ee9;
     display: flex;
     justify-content: center;
     height: 80px;
@@ -27,21 +32,33 @@ header {
 .row{
     width: 1000px;
     height: 40px;
-    background-color: rgba(247, 185, 30, 0.959);
+    background-color: #255ee9;
     margin-top: 10px;
     display: flex;
     /*flex-wrap: wrap; è  superfluo*/
     justify-content: space-between;
-    border: 3px dashed black;
+    
 }
 
-.debug [class^='col'] {
+/*.debug [class^='col'] {
 	border: 3px dashed black;
 	padding: 5px 30px;
-}
+}*/
 
 nav {
-    margin-top: 5PX;
+    margin-top: 5px;
+}
+
+.link span {
+    color: white;
+    padding: 20px;
+    
+}
+
+.login {
+     border-color: white;
+    
+
 }
 
 /*inizio prima sezione: un elemento centrato*/
@@ -171,3 +188,32 @@ nav {
     border: 3px dashed white;
 }
 
+
+
+/*parte finale footer*/
+
+.container_footer{
+    background-color: rgb(32, 31, 31);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-top: 1px  solid white;
+}
+.row_footer{
+    width: 1420px;
+    height: 100px;
+    background-color: rgba(148, 245, 212, 0.959);
+    margin-top: 10px;
+    display: flex;
+    /*flex-wrap: wrap; è superfluo*/
+    justify-content: space-between;
+    
+    
+}
+.row_footer [class^='col'] {
+	background-color: rgb(230, 144, 144);
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    
+}
