@@ -328,3 +328,9 @@ nav {
     background-size: cover;
     opacity: 0.10;
 }
+
+/*Fixato problema h2 in footer */
+
+.h2_footer {
+    margin-top: -30px;
+}
