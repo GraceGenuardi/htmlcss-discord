@@ -260,10 +260,13 @@ a {
 
 .first {
     align-items: center;
+    justify-content: center;
     width: 400px ;
     height: 100px;
     margin-top: 50px;
     color: #7289da;
+    margin-left: 100px;
+
 }
 
 .first img {
